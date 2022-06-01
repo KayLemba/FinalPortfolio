@@ -44,8 +44,8 @@ const cards = [
     optionMobile: ['BUDGET-APP', 'Full Stack Dev', '2022'],
     description:
       'Budget App is a mobile web application that allows you to manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what items you spent it on.',
-    featuredImage: './images/home.png',
-    desktopImage: './images/home.png',
+    featuredImage: './images/home2.png',
+    desktopImage: './images/home2.png',
     technologies: ['HTML', 'CSS', 'PostgreSQL', 'Rails'],
     linktoliveversion: 'https://cryptic-refuge-36900.herokuapp.com/',
     linktosource: 'https://github.com/KayLemba/budget-app',
@@ -176,8 +176,8 @@ function showWorks() {
     {
       title: 'BudgeTIFY',
       options: ['Buget-App', 'Full Stack Dev', '2022'],
-      imgMobile: 'images/home.png',
-      imgDesktop: 'images/home.png',
+      imgMobile: 'images/home2.png',
+      imgDesktop: 'images/home2.png',
       description:
       'Budget App is a mobile web application that allows you to manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what items you spent it on.',
       descriptionD:
