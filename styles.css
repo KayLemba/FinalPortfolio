@@ -940,11 +940,11 @@ a .btn-two {
 
   .portfolio-img {
     margin: 0 auto;
-    width: 37%;
-    height: 80%;
+    width: 32%;
+    height: 90%;
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 16px;
+    right: 12px;
     border-radius: 50%;
     float: right;
   }
