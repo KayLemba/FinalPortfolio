@@ -13,7 +13,7 @@ const width = window.innerWidth;
 const cards = [
   {
     key: 0,
-    name: 'First-Capstone',
+    name: 'Air Show',
     option: ['CAPSTONE', 'Full Stack Dev', '2021'],
     optionMobile: ['CAPSTONE', 'Full Stack Dev', '2021'],
     description:
@@ -39,16 +39,16 @@ const cards = [
   },
   {
     key: 2,
-    name: 'Math Magicians',
-    option: ['CALCULATOR', 'Full Stack Dev', '2022'],
-    optionMobile: ['CALCULATOR', 'Full Stack Dev', '2022'],
+    name: 'BudgeTIFY',
+    option: ['BUDGET-APP', 'Full Stack Dev', '2022'],
+    optionMobile: ['BUDGET-APP', 'Full Stack Dev', '2022'],
     description:
-      'Math Magicians is a single page application (SPA) built with React for people who love mathematics. It helps to make calculations straightforward and easy',
-    featuredImage: './images/fullsite.png',
-    desktopImage: './images/fullsite.png',
-    technologies: ['HTML', 'CSS', 'JavaScript', 'React'],
-    linktoliveversion: 'https://distracted-aryabhata-aa3d97.netlify.app',
-    linktosource: 'https://github.com/KayLemba/math-magicians2',
+      'Budget App is a mobile web application that allows you to manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what items you spent it on.',
+    featuredImage: './images/home.png',
+    desktopImage: './images/home.png',
+    technologies: ['HTML', 'CSS', 'PostgreSQL', 'Rails'],
+    linktoliveversion: 'https://cryptic-refuge-36900.herokuapp.com/',
+    linktosource: 'https://github.com/KayLemba/budget-app',
   },
   {
     key: 3,
@@ -141,7 +141,7 @@ const Openpopup = ({
 function showWorks() {
   const works = [
     {
-      title: 'First-Capstone',
+      title: 'Airshow',
       options: ['CAPSTONE', 'Full Stack Dev', '2021'],
       imgMobile: 'images/Airshow.png',
       imgDesktop: 'images/Airshow.png',
@@ -174,21 +174,21 @@ function showWorks() {
       <li class="langu2">JavaScript</li>`,
     },
     {
-      title: 'Math-Magicians',
-      options: ['CALCULATOR', 'Full Stack Dev', '2022'],
-      imgMobile: 'images/fullsite.png',
-      imgDesktop: 'images/fullsite.png',
+      title: 'BudgeTIFY',
+      options: ['Buget-App', 'Full Stack Dev', '2022'],
+      imgMobile: 'images/home.png',
+      imgDesktop: 'images/home.png',
       description:
-        'Math Magicians is a single page application (SPA) built with React for people who love mathematics. It helps to make calculations straightforward and easy.',
+      'Budget App is a mobile web application that allows you to manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what items you spent it on.',
       descriptionD:
-      'Math Magicians is a single page application (SPA) built with React for people who love mathematics. It helps to make calculations straightforward and easy.',
+      'Budget App is a mobile web application that allows you to manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what items you spent it on.',
       languages: `<li class="langu">HTML</li>
       <li class="langu">CSS</li>
-      <li class="langu">React</li>
+      <li class="langu">Rails</li>
       <li class="langu2">HTML</li>
-      <li class="langu2">React</li>
+      <li class="langu2">Rails</li>
       <li class="langu2">CSS</li>
-      <li class="langu2">JavaScript</li>`,
+      <li class="langu2">PostgreSQL</li>`,
     },
     {
       title: 'COVID19-Metrics',
