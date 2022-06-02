@@ -175,7 +175,7 @@ function showWorks() {
     },
     {
       title: 'BudgeTIFY',
-      options: ['Buget-App', 'Full Stack Dev', '2022'],
+      options: ['Budget-App', 'Full Stack Dev', '2022'],
       imgMobile: 'images/home2.png',
       imgDesktop: 'images/home2.png',
       description:
